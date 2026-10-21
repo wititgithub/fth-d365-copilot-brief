@@ -1,0 +1,11 @@
+import {mkdir,copyFile,cp,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const out=path.join(root,'_site');
+await mkdir(path.join(out,'docs'),{recursive:true});
+for(const file of ['index.html','app.js','content.js','narration-th.js','visuals.js','styles.css','cinematic.css'])await copyFile(path.join(root,file),path.join(out,file));
+for(const file of ['research.md','narration.md','visual-assets-v2.md','image-prompts-v2.json'])await copyFile(path.join(root,'docs',file),path.join(out,'docs',file));
+await cp(path.join(root,'assets'),path.join(out,'assets'),{recursive:true});
+await writeFile(path.join(out,'.nojekyll'),'');
+console.log(`Staged static presentation: ${out}`);

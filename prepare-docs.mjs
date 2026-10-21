@@ -1,0 +1,11 @@
+import {writeFile,readFile} from 'node:fs/promises';
+import {slides,sources} from './content.js';
+const time=n=>`${Math.floor(n/60).toString().padStart(2,'0')}:${(n%60).toString().padStart(2,'0')}`;
+let clock=0;
+const cues=slides.map((s,i)=>{const start=clock;clock+=s.duration;return `| ${i+1} | ${time(start)}–${time(clock)} | ${s.title.en.replaceAll('\n',' ')} | ${s.duration}s |`;}).join('\n');
+const script=`# D365 + Copilot — TH / EN narration\n\nPrepared for Fujitsu Thailand · Research date 21 October 2026\n\nMotion edition 02. Two alternative language tracks with a 480-second slide schedule. Thai has been rewritten for listening, with pronounceable Thai product terms and paragraph pauses, and is supplied as ten MP3 files using Microsoft Niwat Neural through the edge-tts client. English uses installed browser voices and its timing may vary. Thai audio plus the pauses between slides fit the eight-minute schedule. Speak with a professional, approachable tone, leave room to look at the visuals, and do not read source notes aloud.\n\n## Cue sheet\n\n| Slide | Cue | Subject | Planned time |\n|---|---|---|---|\n${cues}\n\n`+['th','en'].map(lang=>`## ${lang==='th'?'ภาษาไทย':'English'}\n\n`+slides.map((s,i)=>`### ${i+1}. ${s.title[lang].replaceAll('\n',' ')}\n\n${s.notes[lang]}\n`).join('\n')).join('\n');
+await writeFile('docs/narration.md',script,'utf8');
+const marker='<!-- GENERATED SOURCE REGISTER -->';
+const research=(await readFile('docs/research.md','utf8')).split(marker)[0];
+await writeFile('docs/research.md',research+marker+'\n\n'+Object.entries(sources).map(([key,s])=>`### ${key}\n\n[${s.title}](${s.url})\n\nType: ${s.kind}\n\n${s.note}\n`).join('\n'),'utf8');
+console.log(`Generated scripts for ${slides.length} slides, ${clock} seconds per language. English narration: ${slides.reduce((n,s)=>n+s.notes.en.split(/\s+/).length,0)} words.`);
