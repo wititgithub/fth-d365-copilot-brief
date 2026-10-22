@@ -1,164 +1,142 @@
-# D365 + Copilot — TH / EN narration
+# Customizing the Future — TH / EN narration
 
-Prepared for Fujitsu Thailand · Research date 21 October 2026
+Prepared for Fujitsu Thailand · Research date 22 October 2026
 
-Motion edition 02. Two alternative language tracks with a 480-second slide schedule. Thai has been rewritten for listening, with pronounceable Thai product terms and paragraph pauses, and is supplied as ten MP3 files using Microsoft Niwat Neural through the edge-tts client. English uses installed browser voices and its timing may vary. Thai audio plus the pauses between slides fit the eight-minute schedule. Speak with a professional, approachable tone, leave room to look at the visuals, and do not read source notes aloud.
+Cinematic Keynote edition 03. Default English with a persistent language switch. Both alternative language tracks use recorded Microsoft neural voices: Guy for English and Niwat for Thai. The 480-second slide schedule includes pauses. Switching language restarts the current slide narration in the selected language. Two use cases only, with a ten-week pilot proposal.
 
 ## Cue sheet
 
 | Slide | Cue | Subject | Planned time |
 |---|---|---|---|
-| 1 | 00:00–00:40 | D365 + Copilot | 40s |
-| 2 | 00:40–01:30 | Invest where extension adds value | 50s |
-| 3 | 01:30–02:25 | Approved. Why is posting blocked? | 55s |
-| 4 | 02:25–03:20 | Zero quantity. Why is value still there? | 55s |
-| 5 | 03:20–04:15 | The system says available. The picker cannot find it. | 55s |
-| 6 | 04:15–05:10 | We see the variance. We still need the explanation. | 55s |
-| 7 | 05:10–05:55 | Connect with existing rights. Decide with evidence. | 45s |
-| 8 | 05:55–06:40 | Start with AP. Keep the first test focused. | 45s |
-| 9 | 06:40–07:25 | Prove value before scaling | 45s |
-| 10 | 07:25–08:00 | Extend D365 with business understanding | 35s |
+| 1 | 00:00–00:40 | Customizing the Future: Building Enterprise Agents | 40s |
+| 2 | 00:40–01:25 | The Investigation Burden: Beyond the Happy Path | 45s |
+| 3 | 01:25–02:10 | Anatomy of an Agent: Perceive, Reason, Act, Govern | 45s |
+| 4 | 02:10–03:10 | Use Case 1: Vendor Email Ingestion & Autonomous Rescheduling | 60s |
+| 5 | 03:10–04:10 | Use Case 2: Tax Invoice Scanning & Zero-Error Compliance | 60s |
+| 6 | 04:10–04:55 | Zero-Trust Boundary: Your Data Stays Yours | 45s |
+| 7 | 04:55–05:40 | Human-in-the-Loop: 3 Tiers of Agent Autonomy | 45s |
+| 8 | 05:40–06:25 | Implementation Sequence: From Proof-of-Value to Scale | 45s |
+| 9 | 06:25–07:25 | 10-Week Pilot Journey: Dual-Perspective ROI | 60s |
+| 10 | 07:25–08:00 | Executive Finale: Fujitsu Red Infinity × Copilot | 35s |
 
 ## ภาษาไทย
 
-### 1. D365 + Copilot
+### 1. ออกแบบอนาคต ด้วย Enterprise Agents
 
-สวัสดีครับ วันนี้ผมขอชวนมองโอกาสที่ทีมฟูจิตสึ ประเทศไทย จะใช้โคไพลอต มาช่วยให้การทำงานบนไดนามิกส์ สามหกห้า คล่องตัวขึ้นครับ
+สวัสดีครับ วันนี้เราจะมองก้าวต่อไปของไดนามิกส์ ทรีซิกซ์ตี้ไฟฟ์ ร่วมกับโคไพลอต สตูดิโอ จากระบบที่บันทึกธุรกรรม สู่ผู้ช่วยที่รับรู้เหตุการณ์ เตรียมทางเลือก และขับเคลื่อนงานภายใต้กติกาขององค์กร
 
-เมื่อรายการหนึ่งติดขัด สิ่งที่ใช้เวลามักเป็นการเปิดดูหลายหน้าจอ ตามหาเอกสาร และสอบถามคนที่เกี่ยวข้อง กว่าจะเข้าใจว่าเกิดอะไรขึ้น และควรส่งต่อให้ใคร
+หัวใจคือทำให้ข้อมูลที่เรามี นำไปสู่การตัดสินใจที่เร็วขึ้น โดยยังคงสิทธิ์และความรับผิดชอบไว้อย่างชัดเจน วันนี้ผมจะพาไปดูสองเรื่อง ได้แก่ อีเมลคู่ค้าที่ขอเลื่อนส่งสินค้า และการตรวจเอกสารภาษี พร้อมแนวทางนำร่องที่ฟูจิตสึ ประเทศไทย สามารถพัฒนาร่วมกับลูกค้าได้ครับ
 
-เราจึงเลือกมาดูสี่ด้าน ได้แก่ งานเจ้าหนี้ ต้นทุนสินค้าคงคลัง งานคลังสินค้า และต้นทุนการผลิต โดยเริ่มจากปัญหาที่มีผู้ใช้งานรายงานจริง แล้วเทียบกับสิ่งที่ระบบมีอยู่แล้ว
+### 2. ภาระการสืบค้น เมื่อธุรกรรมมีข้อยกเว้น
 
-เป้าหมายของวันนี้ คือเลือกหนึ่งเรื่องที่เหมาะจะทดลอง และตกลงว่าจะวัดคุณค่าที่เกิดขึ้นอย่างไรครับ
+เมื่อธุรกรรมเป็นไปตามแผน ระบบช่วยเราได้มากอยู่แล้วครับ แต่เมื่อคู่ค้าขอเลื่อนส่งของ หรือข้อมูลในใบกำกับภาษีไม่ตรงกัน ทีมงานต้องเปิดอีเมล ตรวจรายการในระบบ และค้นขั้นตอนปฏิบัติ เพื่อหาว่าใครควรทำอะไรต่อ
 
-### 2. ต่อเติมให้ตรงจุด
+ตัวอย่างจากชุมชนผู้ใช้สะท้อนภาระนี้ แต่ยังไม่มีหลักฐานว่าทุกองค์กรเสียเวลาเท่ากัน เราจึงเริ่มจากจับเวลางานจริง ส่วนการลดเวลาร้อยละเจ็ดสิบ จะเป็นเป้าหมายท้าทายในโครงการนำร่อง
 
-ก่อนดูแต่ละตัวอย่าง ผมขอวางหลักการลงทุนให้ชัดก่อนครับ เราควรใช้ความสามารถมาตรฐานให้คุ้มค่า แล้วค่อยต่อเติมตรงส่วนที่ยังไม่ตอบโจทย์ขององค์กร
+ก่อนสร้างส่วนเพิ่ม เราจะทดสอบความสามารถมาตรฐานกับงานเดียวกัน เพราะไมโครซอฟท์มีทั้งเอเจนต์จัดซื้อ และระบบรับเอกสารใบแจ้งหนี้อยู่แล้วครับ
 
-ปัจจุบันระบบมีการจับคู่ใบแจ้งหนี้ ระบบอัตโนมัติ และความสามารถของโคไพลอตอยู่แล้ว ส่วนผู้ช่วยกระทบยอดบัญชีและการสื่อสารกับคู่ค้า ก็มีเอกสารจากไมโครซอฟท์รองรับ โดยบางส่วนยังอยู่ในช่วงพรีวิว
+### 3. องค์ประกอบของ Agent รับรู้ วิเคราะห์ ลงมือ กำกับ
 
-โอกาสของเราจึงอยู่ที่การเชื่อมข้อมูลกับเอกสาร ขั้นตอนปฏิบัติ และผู้รับผิดชอบของแต่ละบริษัท เพื่อเตรียมคำตอบที่นำไปทำงานต่อได้
+เอเจนต์สำหรับองค์กรมีสี่ส่วนที่ต้องทำงานร่วมกันครับ ส่วนแรก รับรู้เหตุการณ์ เช่น อีเมลใหม่หรือเอกสารที่ส่งเข้ามา ส่วนที่สอง วิเคราะห์โดยอ้างอิงข้อมูลในระบบ และขั้นตอนปฏิบัติที่องค์กรอนุมัติ
 
-อย่างไรก็ตาม การค้นไม่พบในเอกสาร ไม่ได้แปลว่าระบบทำไม่ได้ครับ ก่อนเริ่มพัฒนา ต้องลองความสามารถที่มีอยู่ในระบบของลูกค้า และตรวจแผนผลิตภัณฑ์ล่าสุดอีกครั้ง
+ส่วนที่สาม ลงมือผ่านเครื่องมือที่เปิดให้ใช้ เช่น อีอาร์พี เอ็มซีพี หรือเอพีไอที่กำหนดสิทธิ์แล้ว และส่วนสุดท้าย กำกับด้วยการยืนยันตัวตน ขอบเขตอำนาจ และประวัติการทำงานที่ตรวจย้อนหลังได้
 
-### 3. อนุมัติแล้ว ทำไมยังลงบัญชีไม่ได้?
+โคไพลอต สตูดิโอช่วยประสานวงจรนี้ ส่วนการตรวจสิทธิ์และกฎธุรกิจยังอยู่ในระบบเดิม เราต้องตรวจด้วยว่าเครื่องมือใดพร้อมใช้จริงในสภาพแวดล้อมของลูกค้าครับ
 
-เริ่มที่งานบัญชีเจ้าหนี้ครับ ลองนึกถึงใบแจ้งหนี้ที่ผ่านการอนุมัติแล้ว แต่พอกดลงบัญชี ระบบกลับแจ้งว่ายังทำรายการไม่ได้
+### 4. กรณีที่ 1: อีเมลคู่ค้า สู่แผนส่งมอบที่ผ่านอนุมัติ
 
-ในชุมชนผู้ใช้งาน มีตัวอย่างที่ปริมาณในใบแจ้งหนี้ยังจับคู่กับใบรับสินค้าไม่ครบ แม้ผู้ใช้จะอนุมัติส่วนต่างไปแล้ว กรณีนี้ไม่ได้แปลว่าระบบผิดครับ แต่การอนุมัติ กับเงื่อนไขการลงบัญชี เป็นคนละจุดควบคุม
+กรณีแรกเริ่มจากอีเมลคู่ค้า แจ้งว่าต้องเลื่อนส่งวัตถุดิบครับ เอเจนต์ระบุเลขใบสั่งซื้อ รายการสินค้า และวันที่เสนอใหม่ แล้วตรวจเทียบข้อมูลล่าสุดในระบบ เพื่อให้แน่ใจว่าอีเมลตรงกับรายการที่ต้องแก้
 
-สิ่งที่เสนอคือให้โคไพลอต รวบรวมใบสั่งซื้อ ใบรับสินค้า ใบแจ้งหนี้ และขั้นตอนปฏิบัติของบริษัท มาสรุปว่าติดตรงไหน ต้องตรวจอะไรเพิ่ม และใครควรรับเรื่องต่อ
+จากนั้นนำผลกระทบต่อความต้องการวัตถุดิบและแผนผลิตมารวมไว้ในเรื่องเดียว พร้อมร่างการเปลี่ยนวันส่งมอบ และส่งให้ผู้มีอำนาจพิจารณา เมื่ออนุมัติแล้วจึงเรียกขั้นตอนบันทึกผ่านเครื่องมือที่ได้รับสิทธิ์ พร้อมเก็บเหตุผลและเอกสารอ้างอิง
 
-เราเริ่มจากการอ่านข้อมูลและเสนอแนวทาง โดยให้คนเป็นผู้อนุมัติและลงรายการตามเดิม แล้ววัดว่าใช้เวลาตรวจสอบน้อยลงเพียงใด และส่งเรื่องได้ถูกคนหรือไม่ครับ
+ไมโครซอฟท์มีความสามารถอ่านอีเมลและวิเคราะห์ผลกระทบในรุ่นพรีวิวแล้ว คุณค่าที่เราจะเพิ่มอยู่ที่ขั้นตอนเฉพาะลูกค้า การส่งอนุมัติ และการประสานทีมผลิต หากข้อมูลกำกวมหรือมีการเปลี่ยนซ้ำ ระบบต้องหยุดส่งให้คนตรวจครับ
 
-### 4. จำนวนเป็นศูนย์ มูลค่าทำไมยังค้าง?
+### 5. กรณีที่ 2: สแกนเอกสารภาษี ตรวจข้อผิดพลาดก่อนลงบัญชี
 
-ตัวอย่างต่อมาคือ ต้นทุนสินค้าคงคลังครับ จำนวนสินค้าเป็นศูนย์แล้ว แต่ทำไมรายงานยังแสดงมูลค่าค้างอยู่
+กรณีที่สองคือการตรวจเอกสารภาษีครับ เริ่มจากอ่านใบกำกับภาษีด้วยระบบรู้จำตัวอักษร แล้วตรวจข้อมูลสำคัญ เช่น เลขประจำตัวผู้เสียภาษี เลขที่เอกสาร และยอดเงิน พร้อมเทียบใบสั่งซื้อกับใบรับสินค้า สำหรับรายการที่ใช้การจับคู่สามทางได้
 
-ปัญหาลักษณะนี้มีผู้รายงานในชุมชน และในเคสที่นำมาอ้างอิง ผู้ถามยืนยันประเด็นการตั้งค่าพื้นที่ของคลังหลักกับคลังระหว่างทาง จึงไม่ควรด่วนสรุปว่าอาการเดียวกัน จะมีสาเหตุเดียวกันเสมอ
+ฝั่งภาษีหัก ณ ที่จ่าย ต้องแยกตามประเภทผู้รับเงิน ประเภทเงินได้ และเวลาที่เกิดหน้าที่ภาษี ไม่ใช่นำเอกสารทุกชนิดไปจับคู่ด้วยกติกาเดียวกัน เอเจนต์ช่วยเตรียมหลักฐานและชี้รายการผิดปกติ ส่วนแบบ ภอ งอ ดอ สาม หรือ ภอ งอ ดอ ห้าสิบสาม และอัตราที่ใช้ ต้องอ้างอิงกฎที่ฝ่ายภาษีอนุมัติ
 
-ระบบมีรายการจับคู่ต้นทุน บันทึกการปิดงวด และรายงานตรวจสอบอยู่แล้ว ส่วนที่เราจะเสริมคือจัดหลักฐานให้เห็นเส้นทาง ตั้งแต่การรับสินค้า การโอนย้าย ไปจนถึงการปิดต้นทุน พร้อมชี้จุดที่ควรตรวจต่อ
+ระบบมาตรฐานมีการอ่านใบแจ้งหนี้ การจับคู่ และภาษีไทยอยู่แล้ว เราเสริมการตรวจข้ามเอกสารและขั้นตอนส่งให้ผู้เชี่ยวชาญยืนยัน เป้าหมายคือป้องกันข้อผิดพลาดและลดความเสี่ยง ไม่ใช่รับประกันว่าจะไม่มีความผิดพลาดหรือค่าปรับครับ
 
-โคไพลอตช่วยเตรียมข้อสันนิษฐานและหลักฐาน ส่วนการคำนวณยังเป็นหน้าที่ของระบบเดิม ผู้ดูแลต้นทุนเป็นคนยืนยันสาเหตุ ก่อนตัดสินใจแก้ไขครับ
+### 6. ขอบเขต Zero Trust ข้อมูลอยู่ภายใต้การควบคุมของคุณ
 
-### 5. ระบบบอกว่ามี แต่หน้างานหาไม่เจอ
+ความไว้วางใจต้องเริ่มจากขอบเขตข้อมูลที่อธิบายได้ครับ เราจะติดตั้งโซลูชันในสภาพแวดล้อมที่ลูกค้าควบคุม ใช้ไมโครซอฟท์ เอนทรา ไอดี และให้สิทธิ์เท่าที่จำเป็น พร้อมกำหนดปลายทางเชื่อมต่อและการเก็บประวัติ
 
-สำหรับคลังสินค้า ภาพที่หลายคนน่าจะคุ้นเคยคือ ระบบบอกว่ามีของ แต่พนักงานเดินไปหยิบแล้วหาไม่เจอครับ
+ไมโครซอฟท์ระบุว่าไม่นำข้อมูลลูกค้าไปฝึกโมเดลพื้นฐานของอะซัวร์ โอเพนเอไอ แต่ไม่ได้หมายความว่าทุกขั้นตอนประมวลผลอยู่ภายในเทแนนต์เดียว หรือภายในประเทศเดียวเสมอ
 
-ในชุมชนมีทั้งคำถามเรื่องการตรวจสอบก่อนตัดสต็อก และเหตุใดเมื่อแจ้งว่าหยิบสินค้าไม่ครบ จึงไม่เกิดงานตรวจนับตามที่คาดไว้ บางกรณีเกี่ยวข้องกับการตั้งค่า หรือมีงานนับเดิมค้างอยู่แล้ว
+ก่อนเปิดใช้งาน เราจึงต้องเห็นแผนผังว่าข้อมูลผ่านบริการใด เก็บที่ไหน และใครเข้าถึงได้ หากใช้การค้นเว็บหรือบริการภายนอก ต้องประเมินและอนุมัติแยกครับ
 
-ระบบมาตรฐานรองรับการจัดการข้อยกเว้นและงานตรวจนับ เราจึงใช้กระบวนการเดิม แล้วเพิ่มผู้ช่วยรวบรวมประวัติการหยิบ การเคลื่อนไหวล่าสุด งานนับที่ยังเปิดอยู่ และบันทึกจากหน้างาน
+### 7. คนกำกับการตัดสินใจ อำนาจของ Agent สามระดับ
 
-จากนั้นเสนอให้หัวหน้าคลังตรวจจุดที่มีเหตุผลรองรับ เอไอไม่สามารถยืนยันได้ว่าสินค้าจริงอยู่ที่ไหน การนับและการปรับยอดยังต้องให้คนรับผิดชอบครับ เราวัดเวลาสืบสวน และจำนวนเรื่องที่เปิดค้าง
+เราแบ่งอำนาจของเอเจนต์เป็นสามระดับครับ ระดับแรก อ่านและสรุปข้อมูล โดยไม่แก้รายการ ระดับที่สอง เตรียมร่างและหลักฐาน แล้วรอคนอนุมัติก่อนบันทึก และระดับที่สาม ทำรายการอัตโนมัติได้เฉพาะเงื่อนไขที่กำหนดไว้ล่วงหน้า
 
-### 6. รู้ว่าต้นทุนต่าง แต่ต้องตามหาคำอธิบาย
+เงื่อนไขไม่ได้มีเพียงวงเงิน ต้องรวมผลกระทบต่อแผนผลิต ประเภทภาษี ความมั่นใจของข้อมูล และรายการที่ห้ามทำด้วย ทั้งสองกรณีในวันนี้ เราเสนอให้เริ่มจากระดับที่สอง
 
-ด้านการผลิต เรามักเห็นตัวเลขต้นทุนที่ต่างจากมาตรฐาน แต่คำอธิบายยังต้องตามหาจากหลายส่วนครับ
+หากจะขยายอำนาจ ต้องมีผลประเมินรองรับ มีบันทึกผู้อนุมัติ ตรวจข้อมูลซ้ำก่อนเขียน และมีทางหยุดงานเมื่อเกิดข้อผิดพลาด คนยังคงเป็นเจ้าของการตัดสินใจครับ
 
-ระบบมีรายงานผลต่างต้นทุนอยู่แล้ว และต้องใช้ให้ตรงกับวิธีคิดต้นทุนและสถานะของใบสั่งผลิต ในชุมชนมีเคสที่ผู้ใช้เปิดดูผลต่างไม่ได้ ก่อนจะแก้ได้เมื่อเข้าใจเงื่อนไขของระบบ จุดนี้จึงเป็นเรื่องที่ควรตรวจด้วยมาตรฐานก่อน
+### 8. ลำดับการนำไปใช้ พิสูจน์คุณค่า ก่อนขยายผล
 
-ส่วนที่น่าทดลองต่อ คือเชื่อมตัวเลขในรายงานกับการใช้วัตถุดิบ เวลาที่รายงาน รุ่นของสูตรการผลิต และบันทึกประจำกะ แล้วจัดเป็นคำอธิบายพร้อมเอกสารให้ผู้ควบคุมต้นทุนพิจารณา
+ลำดับการเริ่มทำมีสี่ขั้นครับ ขั้นแรก ทดสอบความสามารถมาตรฐานกับตัวอย่างงานจริง หากทำได้ครบ เราจะเน้นการตั้งค่าและการนำไปใช้ ขั้นที่สอง ระบุส่วนที่ยังขาด และกำหนดกฎร่วมกับเจ้าของกระบวนการ
 
-ข้อมูลที่เกิดใกล้กันอาจไม่ได้เป็นเหตุเป็นผลกัน ผู้เชี่ยวชาญจึงต้องยืนยันสาเหตุครับ เรื่องนี้ต้องพึ่งข้อมูลหน้างานมากกว่างานเจ้าหนี้ จึงเหมาะจะสำรวจเป็นลำดับถัดไป
+ขั้นที่สาม ทดลองสองกระบวนการในขอบเขตเล็ก ใช้กล่องอีเมลที่อนุมัติ หนึ่งนิติบุคคล และชุดเอกสารที่ตรวจคำตอบไว้แล้ว ขั้นที่สี่ ค่อยขยายปริมาณหรือหน่วยงาน เมื่อผลลัพธ์ผ่านเกณฑ์
 
-### 7. เชื่อมผ่านสิทธิ์เดิม ตัดสินใจด้วยหลักฐาน
+งานอีเมลคู่ค้าและเอกสารภาษีจึงเป็นเวฟแรกที่เสนอ ความพร้อมและความคุ้มค่าต้องยืนยันจากข้อมูลลูกค้า เราจะไม่เพิ่มงานสร้างเอเจนต์ หากมาตรฐานตอบโจทย์ได้อยู่แล้วครับ
 
-ในทางปฏิบัติ เราใช้โคไพลอต สตูดิโอ ประสานข้อมูลธุรกิจ กับเอกสารและขั้นตอนปฏิบัติที่องค์กรอนุมัติครับ
+### 9. เส้นทางนำร่อง 10 สัปดาห์ คุณค่าจากมุมลูกค้าและฟูจิตสึ
 
-ข้อมูลจากไดนามิกส์ เชื่อมผ่านช่องทางที่ระบบรองรับ เช่น เอ็มซีพี หรือเอพีไอ โดยต้องตรวจว่าข้อมูลที่ต้องใช้เปิดให้เข้าถึงได้จริง และใช้สิทธิ์ของผู้ใช้งานหรือบัญชีที่ได้รับมอบหมาย
+แผนนำร่องตัวอย่างใช้เวลาสิบสัปดาห์ ขึ้นกับความพร้อมของข้อมูล สิทธิ์ และทีมงานครับ สองสัปดาห์แรก เก็บเวลางานเดิมและทดสอบมาตรฐาน สัปดาห์ที่สามถึงสี่ ออกแบบการเชื่อมต่อ กฎ และขั้นตอนอนุมัติ
 
-ระยะแรกให้ผู้ช่วยอ่านข้อมูล อ้างอิงกลับไปยังหลักฐาน และเสนอขั้นตอนถัดไป หากจะให้เขียนข้อมูลกลับภายหลัง ต้องเพิ่มการตรวจสอบ การอนุมัติ และประวัติการทำงานให้ครบ
+สัปดาห์ที่ห้าถึงเจ็ด สร้างและประเมินกับกรณีที่มีคำตอบตรวจแล้ว รวมทั้งอีเมลซ้ำ เอกสารอ่านไม่ชัด และคำขอที่เกินสิทธิ์ ส่วนสามสัปดาห์สุดท้าย ทดลองกับผู้ใช้ในขอบเขตที่ควบคุม ก่อนตัดสินใจเดินหน้าหรือปรับแผน
 
-เอกสารที่ค้นได้ต้องตรงกับสิทธิ์ของผู้ใช้ด้วยครับ รวมถึงตรวจนโยบายการเก็บและส่งข้อมูลของบริการที่เลือกใช้ ก่อนนำไปเชื่อมกับระบบจริง
+มุมลูกค้า เราวัดเวลาสืบค้น ความถูกต้อง รายการเสี่ยงที่ตรวจพบ และต้นทุนรวมต่อเรื่อง การลดเวลาร้อยละเจ็ดสิบเป็นเป้าท้าทาย ไม่ใช่ผลลัพธ์ที่รับรอง ส่วนการไม่มีค่าปรับไม่สามารถพิสูจน์จากโครงการระยะสั้นได้
 
-### 8. เริ่มจาก AP วัดผลได้ในขอบเขตเล็ก
+มุมฟูจิตสึ เราได้แนวทางส่งมอบที่ใช้ซ้ำได้ และยกระดับบทบาทสู่คู่คิดด้านเอไอเชิงกลยุทธ์ โดยคิดความคุ้มค่ารวมค่าบริการเอไอ การเชื่อมต่อ และเวลาของผู้ตรวจด้วยครับ
 
-ถ้าเลือกเริ่มได้หนึ่งเรื่อง ผมเสนอให้เริ่มที่งานบัญชีเจ้าหนี้ครับ เพราะจำกัดขอบเขตได้ชัด มีเจ้าของงาน และเปรียบเทียบกับวิธีทำงานปัจจุบันได้ง่าย
+### 10. Fujitsu Red Infinity × Copilot
 
-ตัวอย่างขอบเขตคือ หนึ่งบริษัท หนึ่งประเภทปัญหา เช่น ปริมาณที่จับคู่ใบรับสินค้าไม่ครบ และทีมผู้ใช้งานที่รับผิดชอบโดยตรง
+ฟูจิตสึ ประเทศไทย สามารถนำความเข้าใจธุรกิจและประสบการณ์ไดนามิกส์ มาทำงานร่วมกับเทคโนโลยีเอไอของไมโครซอฟท์ เพื่อให้ข้อมูลนำไปสู่การลงมือทำที่ตรวจสอบได้ครับ
 
-ส่วนต้นทุนสินค้าคงคลังและงานคลังสินค้า เป็นโอกาสสำรวจต่อ ขณะที่งานผลิตควรรอให้ข้อมูลหน้างานพร้อมมากขึ้น ลำดับนี้เป็นข้อเสนอเบื้องต้น ไม่ใช่ผลจัดอันดับปัญหาของลูกค้าทั้งหมด
-
-ก่อนสร้างผู้ช่วยใหม่ ให้ลองวิธีมาตรฐานและโคไพลอตที่มีอยู่กับกรณีเดียวกันก่อนครับ ถ้าทำได้ครบ การตั้งค่าและช่วยให้ผู้ใช้ใช้งานได้จริง อาจเป็นคำตอบที่คุ้มค่ากว่า
-
-### 9. พิสูจน์ก่อนขยายผล
-
-แผนทดลองตัวอย่างอยู่ที่หกสัปดาห์ โดยปรับตามความพร้อมของข้อมูลและทีมงานครับ
-
-สองสัปดาห์แรก ยืนยันปัญหา เก็บเวลาที่ใช้จริง และทดสอบความสามารถมาตรฐาน สองสัปดาห์ถัดมา หากยังมีช่องว่าง จึงสร้างผู้ช่วยแบบอ่านข้อมูล แล้วช่วงท้ายให้ผู้ใช้ทดลองกับกรณีทดสอบที่แยกไว้ตั้งแต่ต้น
-
-สิ่งที่วัดมีทั้งเวลาต่อเรื่อง ความถูกต้องของหลักฐาน การส่งต่อให้คนที่เหมาะสม และค่าใช้จ่ายที่รวมเวลาตรวจของคนด้วย เราจะตกลงเกณฑ์ผ่านหลังเห็นข้อมูลจริง โดยยังไม่สัญญาตัวเลขการประหยัดล่วงหน้า
-
-สิ่งที่ขอจากผู้บริหารคือ ผู้สนับสนุนโครงการ เจ้าของกระบวนการ และข้อมูลทดสอบที่ได้รับอนุญาต เพื่อให้ตัดสินใจได้อย่างมีหลักฐานว่า ควรเดินหน้าหรือปรับแนวทางครับ
-
-### 10. ต่อยอด D365 ด้วยความเข้าใจธุรกิจ
-
-คุณค่าที่ทีมฟูจิตสึ ประเทศไทย นำมาเสริมได้ คือความเข้าใจธุรกิจ ความเชี่ยวชาญด้านไดนามิกส์ และการออกแบบเอไอที่ตรวจสอบได้ครับ
-
-เราใช้ความสามารถมาตรฐานเป็นฐาน แล้วต่อเติมตรงจุดที่ช่วยให้คนรวบรวมหลักฐานและตัดสินใจได้ดีขึ้น เริ่มจากหนึ่งปัญหาที่เจ้าของงานยืนยัน และหนึ่งโครงการทดลองที่วัดผลได้
-
-หากผลยังไม่ดีพอ เราก็ปรับหรือหยุดได้ก่อนขยายการลงทุน แต่ถ้าพิสูจน์คุณค่าได้ ก็มีฐานที่ชัดเจนสำหรับก้าวต่อไปครับ
-
-ขอบคุณครับ ยินดีรับคำถามและข้อเสนอแนะครับ
+ข้อเสนอวันนี้คือเริ่มจากสองกระบวนการที่ชัดเจน มีเจ้าของงาน มีขอบเขตอำนาจ และมีผลลัพธ์ที่วัดได้ สิ่งที่ขอจากผู้บริหาร คือผู้สนับสนุนโครงการ ตัวแทนจัดซื้อและภาษี และข้อมูลตัวอย่างที่ได้รับอนุมัติ เพื่อเริ่มพิสูจน์คุณค่าร่วมกัน ขอบคุณครับ ยินดีรับคำถามและข้อเสนอแนะครับ
 
 ## English
 
-### 1. D365 + Copilot
+### 1. Customizing the Future: Building Enterprise Agents
 
-Good morning, everyone. Today I would like to share a practical opportunity for Fujitsu Thailand to extend Dynamics 365 Finance and Supply Chain Management with Copilot. The objective is to reduce the time people spend investigating blocked transactions and explaining operational exceptions. We will look at four modules, starting with reported community cases and checking what Microsoft already provides. These are proposals for a controlled pilot, rather than claims about results in a customer environment. The decision we are seeking is a focused investigation of one workflow, with a clear business owner and measurable evidence of value.
+Good morning, everyone. Today we will explore how Dynamics 365 and Copilot Studio can support the next step in enterprise operations. Our theme is Customizing the Future: Building Enterprise Agents. We describe this shift as moving from a System of Record toward a System of Agency, where an agent recognizes an event, prepares a decision and takes an authorized action. We will focus on two workflows: vendor delivery changes and tax-document review. The opportunity for Fujitsu Thailand is to connect Microsoft capabilities with each customer’s procedures, while keeping responsibility and control clear.
 
-### 2. Invest where extension adds value
+### 2. The Investigation Burden: Beyond the Happy Path
 
-First, we need a clear boundary. Dynamics 365 already includes invoice matching and automation. Microsoft also documents Account Reconciliation and Procurement agents, with preview requirements that vary by feature. ERP MCP and Copilot access are already part of the platform. A generic chat interface is therefore not enough to justify a new project. Our proposed value is a company-specific workflow that brings together transaction evidence, approved procedures and an accountable owner. We should test the standard experience in the target tenant before building anything. Documentation gaps alone do not prove a product limitation, and upcoming capabilities may change the investment case.
+The investigation burden appears when a transaction leaves the happy path. A supplier changes a date, or an invoice disagrees with a receipt. People collect email, transaction records and procedures before deciding what to do. Community discussions show this friction, but they do not establish a universal percentage of employee time. We will measure the customer’s baseline. A seventy percent reduction is a stretch target to test, rather than a promised result. Microsoft already provides procurement-agent and invoice-capture capabilities, so our first decision is whether a company-specific gap remains after using those tools.
 
-### 3. Approved. Why is posting blocked?
+### 3. Anatomy of an Agent: Perceive, Reason, Act, Govern
 
-Our first example is Accounts Payable. In a community case, an invoice discrepancy was approved, but posting still failed because the quantity matched to product receipts was insufficient. This is not evidence that standard matching is broken. The controls are doing an important job. The investigation problem is understanding which condition remains unresolved. The proposed extension assembles an evidence pack from the invoice, purchase order, receipt and approved company procedure. It suggests the next check and whether AP, Purchasing or Warehouse should own it. We would begin with read-only access. The agent would not approve a variance or invent a receipt. We would measure investigation time and the accuracy of the handoff.
+An enterprise agent needs four connected capabilities. Perceive means recognizing an email, document or business event. Reason means relating that event to ERP facts and approved procedures. Act means using an available ERP MCP tool or secured API, with the same business validations the application normally applies. Govern means authenticating the identity, limiting authority and recording what happened. Copilot Studio coordinates the workflow. Dynamics remains responsible for transaction controls. Before implementation, we must verify the actual tools and permissions available in the customer environment, including how a failed or repeated request will be handled.
 
-### 4. Zero quantity. Why is value still there?
+### 4. Use Case 1: Vendor Email Ingestion & Autonomous Rescheduling
 
-The second case concerns Inventory and Cost Management. A community user reported remaining inventory value even when quantity was zero. In that particular discussion, the user confirmed an issue involving the site setup of the main and transit warehouses. We should not assume that every similar symptom has the same cause. Standard Dynamics already provides settlements, close logs and open-quantity checks. The extension would organize those facts into a trace of receipts, transfers, issues and settlements, with checks based on company procedures. Copilot would offer testable hypotheses. Dynamics would remain the cost calculation engine. The goal is a faster, reviewable investigation, without automatic adjustments or reversal of a closed period.
+Our first workflow begins when a vendor emails a delivery delay. The agent identifies the purchase order, affected lines and proposed date, then verifies them against the latest ERP record. It brings the production impact and the suggested delivery change into one approval package. After the authorized buyer approves, a secured action applies the change and records the evidence. Microsoft already documents supplier-email changes and procurement impact analysis in preview. Our proposed extension is the customer’s specific approval policy, escalation rules and production handoff, where the standard benchmark shows a gap. We also need duplicate detection, a fresh-data check before writing, and a safe stop when the email is ambiguous. Autonomous rescheduling means controlled preparation and execution within explicit authority. The pilot starts with human approval for every write.
 
-### 5. The system says available. The picker cannot find it.
+### 5. Use Case 2: Tax Invoice Scanning & Zero-Error Compliance
 
-In Warehouse Management, the situation is easy to recognize: the system shows inventory, but the picker cannot find it. Community discussions include investigating shortages before writing off stock, and understanding why short picking did not create the expected counting work. Dynamics already supports work exceptions, reallocation and counting processes through configuration. We should reuse them. The proposed assistant connects work logs, recent movements, existing open counts and authorized warehouse notes. It then suggests an investigation for a supervisor to confirm. AI cannot establish physical stock by itself. In the pilot, it would not adjust or relocate inventory automatically. We would measure investigation time and the age of unresolved exceptions.
+The second workflow reviews tax documents before posting or reporting. Optical character recognition extracts key fields from the tax invoice. For applicable purchase-order invoices, Dynamics performs its existing three-way match against the order and receipt. Non-PO invoices need a separate approved control. Withholding evidence also needs its own checks, because the payee, income type and payment event determine the tax treatment. The agent can collect evidence, flag inconsistent details and prepare a review queue. Tax owners approve the rules and confirm PND 3 or PND 53 treatment. Standard invoice capture, matching and Thailand localization remain the foundation. The custom layer connects customer-specific document checks and review procedures. Zero-error describes the quality ambition. We will measure extraction accuracy, missed exceptions and review effort, without a zero-penalty promise.
 
-### 6. We see the variance. We still need the explanation.
+### 6. Zero-Trust Boundary: Your Data Stays Yours
 
-For Production Control and Costing, variance reports already exist. Standard-cost variance analysis also depends on the costing model and order status. A community case about a disabled variance option was resolved by checking that prerequisite. We are not proposing AI to repair that button or replace the report. The opportunity to explore is connecting report figures with BOM or route versions, material consumption and shift notes. The output would be a concise evidence brief for the production controller. A suggested cause remains a hypothesis until an expert confirms it. This case depends more heavily on data quality than AP, so we would place it later and compare it with Microsoft’s evolving Finance Agent capabilities.
+Trust starts with an explicit data boundary. We propose customer-controlled environments, Microsoft Entra ID, least-privilege roles and approved connector policies. Microsoft states that customer data is not used to train Azure OpenAI foundation models. That commitment should not be confused with a guarantee that every processing step stays physically inside one tenant or one country. Copilot Studio services, connectors and geography settings affect data movement and retention. Before launch, the customer approves a data-flow map, access model and retention policy. Any external service or web search requires a separate review. Every permitted action must still pass ERP authorization and validation.
 
-### 7. Connect with existing rights. Decide with evidence.
+### 7. Human-in-the-Loop: 3 Tiers of Agent Autonomy
 
-The implementation can use Copilot Studio with Dynamics data exposed through authorized ERP MCP tools or APIs, alongside controlled documents and procedures. First, we must confirm that the target environment exposes the information and actions the workflow needs. The integration should operate with the assigned identity and existing permissions. The initial pilot would read data and return cited evidence. Any later write-back would require its own validation, approval and audit design. Document retrieval must also respect user access. We need to review the agent client’s retention and data handling policies, because MCP security alone does not determine the compliance boundary of the complete solution.
+We propose three autonomy tiers. Tier one reads and explains, without changing transactions. Tier two prepares a draft and waits for an authorized person to approve. Tier three executes only within predefined limits. Those limits must cover more than money. They also include production impact, tax uncertainty, data confidence and prohibited actions. Both pilot workflows should start at tier two. Increasing authority requires evaluation evidence, not simply a configuration switch. We need an approval record, a fresh-data check, duplicate protection and a stop path. The business owner remains accountable for the policy and the decision to expand authority.
 
-### 8. Start with AP. Keep the first test focused.
+### 8. Implementation Sequence: From Proof-of-Value to Scale
 
-If we start with one case, my recommendation is an AP exception workflow. We can define a narrow scope, such as receipt mismatches in one legal entity, identify an accountable owner and compare against the current method. Inventory close and warehouse investigations can follow. Production needs stronger operational context. This sequence is a design recommendation, rather than a measured ranking of customer pain. The process owner should confirm it using resolved cases. We should also run the same tasks through existing configuration and Copilot capabilities. If standard tools already meet the need, the right engagement may be configuration and adoption, without building another agent.
+Implementation follows four gates: benchmark, configure, pilot and scale. First, run representative cases through the existing Microsoft experience. If configuration meets the need, use it. Next, document the remaining gap and agree the company’s rules with process owners. Then pilot the two workflows in a narrow scope: an approved mailbox, one legal entity and documents with verified answers. Scale only after the agreed evidence supports it. Vendor email and tax scanning are our proposed first wave, with readiness and value still to be confirmed. This sequence keeps the Fujitsu engagement focused on useful operational change and avoids duplicating a platform feature that already works.
 
-### 9. Prove value before scaling
+### 9. 10-Week Pilot Journey: Dual-Perspective ROI
 
-An illustrative pilot could run for six weeks, depending on data access and team readiness. First, confirm the pain, record a baseline and benchmark standard tools on the same cases. Next, build a read-only workflow for the selected exception. Finally, evaluate it with users on cases held back from development. Measure time per case, evidence accuracy, handoff accuracy and cost per case, including AI consumption and human review. Agree acceptance criteria after understanding the baseline and costs. We should not promise a savings percentage today. The executive request is a sponsor, a process owner and approved access to test data, so we can make an evidence-based proceed-or-stop decision.
+The illustrative pilot runs for ten weeks, subject to data access and team readiness. Weeks one and two establish the baseline and benchmark standard capabilities. Weeks three and four define the integrations, policies and approval design. Weeks five to seven build and evaluate against verified cases, including duplicates, poor scans and unauthorized requests. Weeks eight to ten run a controlled user pilot and make a proceed-or-change decision. Customer value is measured in investigation time, review quality, risk detection and total cost per case. A seventy percent time reduction is a stretch target, not a guaranteed result. A short pilot cannot establish a promise of zero tax penalties. Fujitsu Thailand gains reusable delivery knowledge and a stronger strategic AI role. The financial assessment must include licenses, AI consumption, integration work and human review time.
 
-### 10. Extend D365 with business understanding
+### 10. Executive Finale: Fujitsu Red Infinity × Copilot
 
-Fujitsu Thailand can bring together business understanding, Dynamics expertise and AI workflows that people can verify. We use standard capabilities as the foundation and extend the steps where company-specific evidence and decisions still need support. The proposal is to begin with one confirmed problem, one workflow that adds value and one measurable pilot. If it does not improve on the existing approach, we can change direction before scaling. Thank you. I look forward to your questions and feedback.
+Fujitsu Thailand can combine business understanding, Dynamics expertise and Microsoft AI technology to help customers act on their information with control. Our proposal is two defined workflows, one measured pilot and an evidence-based decision before scaling. We ask for an executive sponsor, procurement and tax owners, and approved sample data. The red infinity represents the continuing connection between people, enterprise knowledge and responsible action. Thank you. I welcome your questions and suggestions on where this approach could create the most useful change for your organization.
