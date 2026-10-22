@@ -24,9 +24,9 @@ jobs:
       - name: Stage public files only
         run: |
           mkdir -p _site/docs
-          cp index.html app.js content.js narration-th.js visuals.js styles.css cinematic.css _site/
+          cp index.html app.js content.js narration-th.js visuals.js styles.css cinematic.css keynote-v3.css _site/
           cp -r assets _site/
-          cp docs/research.md docs/narration.md docs/visual-assets-v2.md docs/image-prompts-v2.json _site/docs/
+          cp docs/research.md docs/narration.md docs/visual-assets-v2.md docs/image-prompts-v2.json docs/visual-assets-v3.md _site/docs/
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

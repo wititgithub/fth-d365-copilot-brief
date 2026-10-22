@@ -1,0 +1,92 @@
+[
+  {
+    "id": "opportunity",
+    "lang": "en",
+    "path": "assets/audio/v3/en-01.mp3",
+    "duration": 38.28,
+    "cue": 40,
+    "voice": "en-US-GuyNeural",
+    "rate": "+0%"
+  },
+  {
+    "id": "standard",
+    "lang": "en",
+    "path": "assets/audio/v3/en-02.mp3",
+    "duration": 39.528,
+    "cue": 45,
+    "voice": "en-US-GuyNeural",
+    "rate": "+0%"
+  },
+  {
+    "id": "architecture",
+    "lang": "en",
+    "path": "assets/audio/v3/en-03.mp3",
+    "duration": 42.192,
+    "cue": 45,
+    "voice": "en-US-GuyNeural",
+    "rate": "+5%"
+  },
+  {
+    "id": "vendor-email",
+    "lang": "en",
+    "path": "assets/audio/v3/en-04.mp3",
+    "duration": 55.104,
+    "cue": 60,
+    "voice": "en-US-GuyNeural",
+    "rate": "+0%"
+  },
+  {
+    "id": "tax-compliance",
+    "lang": "en",
+    "path": "assets/audio/v3/en-05.mp3",
+    "duration": 58.944,
+    "cue": 60,
+    "voice": "en-US-GuyNeural",
+    "rate": "+0%"
+  },
+  {
+    "id": "security",
+    "lang": "en",
+    "path": "assets/audio/v3/en-06.mp3",
+    "duration": 41.832,
+    "cue": 45,
+    "voice": "en-US-GuyNeural",
+    "rate": "+8%"
+  },
+  {
+    "id": "autonomy",
+    "lang": "en",
+    "path": "assets/audio/v3/en-07.mp3",
+    "duration": 42.192,
+    "cue": 45,
+    "voice": "en-US-GuyNeural",
+    "rate": "+6%"
+  },
+  {
+    "id": "priorities",
+    "lang": "en",
+    "path": "assets/audio/v3/en-08.mp3",
+    "duration": 41.856,
+    "cue": 45,
+    "voice": "en-US-GuyNeural",
+    "rate": "+7%"
+  },
+  {
+    "id": "pilot",
+    "lang": "en",
+    "path": "assets/audio/v3/en-09.mp3",
+    "duration": 56.424,
+    "cue": 60,
+    "voice": "en-US-GuyNeural",
+    "rate": "+0%"
+  },
+  {
+    "id": "closing",
+    "lang": "en",
+    "path": "assets/audio/v3/en-10.mp3",
+    "duration": 32.064,
+    "cue": 35,
+    "voice": "en-US-GuyNeural",
+    "rate": "+13%"
+  }
+]
